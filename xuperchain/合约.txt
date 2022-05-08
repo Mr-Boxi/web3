@@ -1,0 +1,107 @@
+合约：
+
+链依赖组件
+
+func (t *ChainRelyAgentImpl) CreateContract(xmreader kledger.XMReader) (contract.Manager, error)
+------------------------------------------------------------------------------------------------------kernel
+contract.CreateManager("default", mgCfg)
+
+         managers     = make(map[string]NewManagerFunc)
+
+
+func Register(name string, f NewManagerFunc)
+
+func newManagerImpl(cfg *contract.ManagerConfig) (contract.Manager, error)
+
+type managerImpl struct {
+	core      contract.ChainCore
+	xbridge   *bridge.XBridge
+	kregistry registryImpl
+}
+---
+type ChainCore interface {
+	// GetAccountAddress get addresses associated with account name
+	GetAccountAddresses(accountName string) ([]string, error)
+	// VerifyContractPermission verify permission of calling contract
+	VerifyContractPermission(initiator string, authRequire []string, contractName, methodName string) (bool, error)
+	// VerifyContractOwnerPermission verify contract ownership permisson
+	VerifyContractOwnerPermission(contractName string, authRequire []string) error
+	// QueryTransaction query confirmed tx
+	QueryTransaction(txid []byte) (*pb.Transaction, error)
+	// QueryBlock query block
+	QueryBlock(blockid []byte) (ledger.BlockHandle, error)
+
+	// ResolveChain resolve chain endorsorinfos
+	// ResolveChain(chainName string) (*pb.CrossQueryMeta, error)
+}
+---
+type XBridge struct {
+	ctxmgr         *ContextManager
+	syscallService *SyscallService
+	basedir        string
+	vmconfigs      map[ContractType]VMConfig
+	creators       map[ContractType]InstanceCreator
+	xmodel         ledger.XMReader
+	config         contract.ContractConfig
+	core           contract.ChainCore
+
+	debugLogger logs.Logger
+
+	*contractManager
+}
+    ---
+    ---
+        // ContextManager 用于管理产生和销毁Context
+        type ContextManager struct {
+        	// 保护如下两个变量
+        	// 合约进行系统调用以及合约执行会并发访问ctxs
+        	ctxlock sync.Mutex
+        	ctxid   int64
+        	ctxs    map[int64]*Context
+        }
+        type SyscallService struct {
+        	ctxmgr *ContextManager
+        	bridge *XBridge
+        	core   contract.ChainCore
+        }
+        type InstanceCreator interface {
+        	// CreateInstance instances a wasm virtual machine instance which can run a single contract call
+        	CreateInstance(ctx *Context, cp ContractCodeProvider) (Instance, error)
+        	RemoveCache(name string)
+        }
+        type XMReader interface {
+        	//读取一个key的值，返回的value就是有版本的data
+        	Get(bucket string, key []byte) (*VersionedData, error)
+        	//扫描一个bucket中所有的kv, 调用者可以设置key区间[startKey, endKey)
+        	Select(bucket string, startKey []byte, endKey []byte) (XMIterator, error)
+        }
+        type ContractConfig struct {
+        	EnableDebugLog bool
+        	EnableUpgrade  bool
+        	LogDriver      logs.Logger
+
+        	Native  NativeConfig
+        	Wasm    WasmConfig
+        	Xkernel XkernelConfig
+        	EVM     EVMConfig
+        }
+        type ChainCore interface
+
+        type contractManager struct {
+        	xbridge      *XBridge
+        	codeProvider ContractCodeProvider
+        }
+
+---
+type registryImpl struct {
+	mutex     sync.Mutex
+	methods   map[string]map[string]contract.KernMethod
+	shortcuts map[string]shortcut
+}
+---
+
+
+func Register(tp ContractType, name string, driver NewInstanceCreatorFunc) {
+	defaultRegistry.Register(tp, name, driver)
+}
+---------------------------------------------------------------------------------bcs
