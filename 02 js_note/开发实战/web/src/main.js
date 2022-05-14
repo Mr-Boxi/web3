@@ -8,7 +8,7 @@ import './core/gin-vue-admin'
 // 引入封装的router
 import router from '@/router/index'
 import '@/permission'
-import run from '@/core/gin-vue-admin.js'
+import run from '@/core/gin-vue-admin.ts'
 import auth from '@/directive/auth'
 import { store } from '@/pinia'
 import App from './App.vue'

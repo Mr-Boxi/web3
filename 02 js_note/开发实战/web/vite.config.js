@@ -38,7 +38,7 @@ export default ({
 
   const alias = {
     '@': path.resolve(__dirname, './src'),
-    'vue$': 'vue/dist/vue.runtime.esm-bundler.js',
+    'vue$': 'vue/dist/vue.runtime.esm-bundler.ts',
   }
 
   const esbuild = {}
