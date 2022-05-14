@@ -4,7 +4,7 @@
         类似地，我们必须通过 import 导入其他模块导出的变量、函数、类等
  */
 
-// 文件 SomeInterface.ts
+// 文件 SomeInterface.01 TypeScript
 export interface SomeInterface {
     // code
 }

@@ -12,7 +12,7 @@
         - undefined
         - never
 
-    note: ts 没有整数类型
+    note: 01 TypeScript 没有整数类型
  */
 
 

@@ -23,7 +23,7 @@ var sites = {
     sayHello: function () {} // 类型模板
 }
 
-// @ts-ignore
+// @01 TypeScript-ignore
 sites.sayHello() = function () {
     console.log("hello " + sites.site1);
 };

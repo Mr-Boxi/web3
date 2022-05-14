@@ -1,5 +1,5 @@
 import config from './config'
-import { emitter } from '@/utils/bus.ts'
+import { emitter } from '@/utils/bus.01 TypeScript'
 
 // 统一导入el-icon图标
 import * as ElIconModules from '@element-plus/icons-vue'
