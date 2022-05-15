@@ -43,13 +43,13 @@
 
 ### solidity
 
-- [solidity 语法点]()
+- [solidity 语法点](04 solidity_note/02语法.md)
 - [solidity 实战](04 solidity_note/solidity实战/01 solidityByExample实战/README.md)
-  - [basics]
-  - [application]
-  - [Hacks]
-  - [DeFi]
-  - [GameFi]
+  - basics
+  - application
+  - Hacks
+  - DeFi
+  - GameFi
 
 ### chains
 

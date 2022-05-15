@@ -7,9 +7,9 @@ note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合�
 ## 目录
 - 01 区块链基础
 - 02 rust_note (**精通方向**)
-- 02 js_note
-- 03 solidity_note （**目前主要方向**）
-- .... （各条公链的学习笔记）
+- 03 js_note
+- 04 solidity_note （**目前主要方向**）
+- 05 .... （各条公链的学习笔记）
 
 
 ## what am i doing
