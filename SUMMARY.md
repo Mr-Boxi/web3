@@ -25,21 +25,37 @@
   - [2.5 全局变量](02 rust_note/02 rust进阶知识点/2.5 全局变量.md)
   - [2.6 错误处理](02 rust_note/02 rust进阶知识点/2.6 错误处理.md)
   - [2.7 多线程](02 rust_note/02 rust进阶知识点/2.7 多线程并发编程.md)
-  - [2.8 异步](02 rust_note/02 rust进阶知识点/2.8 rust异步编程.md)
-  - [2.9 unsafe](02 rust_note/02 rust进阶知识点/2.9 unsafe编程.md)
+  - [2.8 异步编程](02 rust_note/02 rust进阶知识点/2.8 rust异步编程.md)
+  - [2.9 unsafe编程](02 rust_note/02 rust进阶知识点/2.9 unsafe编程.md)
   - [2.10 宏](02 rust_note/02 rust进阶知识点/2.10 宏.md)
   - [2.11 容易混淆概念](02 rust_note/02 rust进阶知识点/2.11 易混淆的概念.md)
 
 - [3 rust工具链使用](02 rust_note/03 rust工具链使用/README.md)
   - [3.1 测试与文档](02 rust_note/03 rust工具链使用/rust测试与文档.md)
-  - [3.2 项目管理](02 rust_note/03 rust工具链使用/rust项目管理.md))
+  - [3.2 项目管理](02 rust_note/03 rust工具链使用/rust项目管理.md)
 
 - [4 rust开发实战](02 rust_note/04 rust开发实战/README.md)
   - [4.1 rust开发智能合约](02 rust_note/04 rust 开发实战/rust开发智能合约/README.md)
+    - [polkadot 生态]
+     - [1.1 快速开始](02 rust_note/04 rust 开发实战/rust开发智能合约/polkadot-ink/快速开始.md)
+     - [1.2 合约基础要素讲解](02 rust_note/04 rust 开发实战/rust开发智能合约/polkadot-ink/基础讲解.md)
+     - [1.3 ink宏和属性](02 rust_note/04 rust 开发实战/rust开发智能合约/polkadot-ink/宏和属性.md)
+     - [1.4 存储和数据结构](02 rust_note/04 rust 开发实战/rust开发智能合约/polkadot-ink/存储和数据结构.md)
+     - [1.5 合约代码解读](02 rust_note/04 rust 开发实战/rust开发智能合约/polkadot-ink/合约例子解读/README.md)
+       - [1.5.1 flipper](02 rust_note/04 rust 开发实战/rust开发智能合约/polkadot-ink/合约例子解读/flipper.md)
+  - [cosmos 生态]()
+    - [环境配置](02 rust_note/04 rust 开发实战/rust开发智能合约/cosmos/环境配置.md)
+    - [快速开始](02 rust_note/04 rust 开发实战/rust开发智能合约/cosmos/快速开始.md)
+    - [合约剖析](02 rust_note/04 rust 开发实战/rust开发智能合约/cosmos/合约剖析.md)
+    - [开发合约](02 rust_note/04 rust 开发实战/rust开发智能合约/cosmos/开发合约.md)
+    - [secret_network](02 rust_note/04 rust 开发实战/rust开发智能合约/cosmos/README.md)
+  [solana]()
+  [near]()
 
 ### js
 
-- [TypeScript](03 js_note/01 TypeScript/README.md)
+- [TypeScript](03 js_note/01 type_script/README.md)
+  
 
 ### solidity
 
