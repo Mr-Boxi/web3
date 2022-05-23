@@ -56,6 +56,8 @@
 - [ethernum](ethernum/README.md)
 - [polygon](polygon/README.md)
 - [cosmos](cosmos/README.md)
+  - [secret_network 隐私链](cosmos/secret_network/README.md)
+    - [节点搭建](cosmos/secret_network/secret_network节点搭建.md)
 - [polkadot](polkadot/README.md)
 - [near](near/README.md)
 - [solana](solana/README.md)
