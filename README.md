@@ -19,4 +19,9 @@ note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合�
 -  2022-5 ~ 2020-8 隐私链
 ```text
 secret_network 研究。看git提交
+
+
+目前主要结果更新在下面仓库
+
+https://github.com/HermitMatrixNetwork/
 ```
