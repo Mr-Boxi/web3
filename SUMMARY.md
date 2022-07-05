@@ -59,8 +59,8 @@
 
 ### solidity
 
-- [solidity 语法点](04 solidity_note/02语法.md)
-- [solidity 实战](04 solidity_note/solidity实战/01 solidityByExample实战/README.md)
+- [solidity 语法点](solidity_smart_contract/02语法.md)
+- [solidity 实战](solidity_smart_contract/solidity实战/01 solidityByExample实战/README.md)
   - basics
   - application
   - Hacks
@@ -70,10 +70,10 @@
 ### chains
 
 - [ethernum](ethernum/README.md)
-- [polygon](polygon/README.md)
-- [cosmos](cosmos/README.md)
-  - [secret_network 隐私链](cosmos/secret_network/README.md)
-    - [节点搭建](cosmos/secret_network/secret_network节点搭建.md)
-- [polkadot](polkadot/README.md)
+- [polygon](blockchains/polygon/README.md)
+- [cosmos](blockchains/cosmos/README.md)
+  - [secret_network 隐私链](blockchains/cosmos/secret_network/README.md)
+    - [节点搭建](blockchains/cosmos/secret_network/secret_network节点搭建.md)
+- [polkadot](blockchains/polkadot/README.md)
 - [near](near/README.md)
-- [solana](solana/README.md)
+- [solana](blockchains/solana/README.md)
