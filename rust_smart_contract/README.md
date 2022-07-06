@@ -20,3 +20,11 @@ https://github.com/InterWasm/cw-contracts
 https://github.com/solana-labs/solana-program-library
 
 - sol-token
+
+## near
+
+todo
+
+## gear
+
+todo
