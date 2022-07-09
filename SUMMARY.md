@@ -59,7 +59,7 @@
 
 ### solidity
 
-- [solidity 语法点](solidity_smart_contract/02语法.md)
+- [solidity 语法点](solidity_smart_contract/solidity语法.md)
 - [solidity 实战](solidity_smart_contract/solidity实战/01 solidityByExample实战/README.md)
   - basics
   - application
