@@ -8,7 +8,9 @@
 - solidity_tools
   - deployment_tool
      - remix 图形化操作方便
-     - web3.js/ethers.js 代码库
+     - web3-connect-network.js
+     - ethers.js
+     - truffle
   - OpenZeppenlin eip合约库
 
 - solidity_application
@@ -16,6 +18,7 @@
   - ecr721
   - erc777
   - erc1155
+  - eip
     
 - solidity_defi
   - Uniswap
@@ -23,3 +26,6 @@
   - SushiSwap
   - Maker       https://makerdao.com/zh-CN/  
   - Compound    https://compound.finance/
+  
+# study roadmap
+follow the contents
