@@ -1,4 +1,4 @@
-# 链
+# layer1 
 
 # Defi
 solidity defi
@@ -7,3 +7,5 @@ solidity defi
 GameFi report: https://www.odaily.news/post/5179702
 
 # layer2
+
+zkSync
