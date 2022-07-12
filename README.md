@@ -31,6 +31,9 @@ note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合�
   - eip 
   - erc721/1155/777
   
+- solidity_hack (know)
+  - re_entrancy   
+  
 ### rust_smart_contract
 - ink
 - cosmwasm
