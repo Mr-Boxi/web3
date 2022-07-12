@@ -1,5 +1,9 @@
 # rust smart contract
 
+## rust basic
+
+要求掌握rust基础语法即可
+
 ## cosmwasm
 
 https://github.com/InterWasm/cw-contracts
