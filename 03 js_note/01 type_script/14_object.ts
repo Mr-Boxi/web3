@@ -24,6 +24,7 @@ var sites = {
 }
 
 // @01 TypeScript-ignore
+// @ts-ignore
 sites.sayHello() = function () {
     console.log("hello " + sites.site1);
 };

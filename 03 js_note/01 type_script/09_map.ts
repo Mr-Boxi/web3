@@ -3,6 +3,7 @@
  */
 
 // @01 TypeScript-ignore
+// @ts-ignore
 let myMap = new Map();
 
 // 设置map
