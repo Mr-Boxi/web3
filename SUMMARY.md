@@ -8,10 +8,11 @@
 
 ### solidity_smart_contract
 - [solidity_smart_contrct](./solidity_smart_contract/README.md)
-- [solidity_by_example](./solidity_smart_contract/solidity_by_example/README.md)
+- [solidity_basic](solidity_smart_contract/solidity_basic/README.md)
+- [solidity_tools](solidity_smart_contract/solidity_tools/README.md)
 - [solidity_dapp](./solidity_smart_contract/solidity_dapp/README.md)
 - [solidity_defi](./solidity_smart_contract/solidity_defi/README.md)
 
 ### rust_smart_contract
 
-### blockchains
+### blockchains(layer1)

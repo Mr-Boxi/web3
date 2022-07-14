@@ -45,11 +45,18 @@ note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合�
 
 - public chain
     - ethereum
+      - etherum
+      - polygen
+      - zkSync
 
     - cosmos-sdk
-
+      - gala
+      - secret_network
+      
     - substrate
-
+      - pokadot
+      - moonbean
+      - ...
 - alliance chain
   - xuperchain
   
