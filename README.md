@@ -13,8 +13,7 @@ note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合�
 - 06 .... 
 
 ### solidity_smart_contract 
-- solidity_by_example (master)
-  - solidtiy_basic
+ - solidtiy_basic(master)
   
 - solidity_tools
   - web3.js

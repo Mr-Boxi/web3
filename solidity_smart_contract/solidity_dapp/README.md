@@ -7,4 +7,4 @@ solidity dapp
   - ecr721
   - erc777
   - erc1155
-  - OpenZeppenlin eip合约库  
+  - openzeppelin-contracts
