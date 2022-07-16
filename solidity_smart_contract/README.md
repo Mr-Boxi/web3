@@ -14,6 +14,7 @@
   - OpenZeppenlin eip合约库
 
 - solidity_application
+  - basic
   - erc20
   - ecr721
   - erc777
