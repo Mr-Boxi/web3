@@ -13,25 +13,49 @@ note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合�
 - 06 .... 
 
 ### solidity_smart_contract 
- - solidtiy_basic(master)
-  
+- solidity_basic
+  - basic          solidity语法基础
+
 - solidity_tools
-  - web3.js
-  - ethers.js
-  - truffle
+
+  - projest_manage (dev_workflow)
+    
+    - remix
+    - truffle
+    - dapptools  
+    
+  - dev_tool (常用js库)
+     
+     - web3.js
+     - ethers.js
+     - harhat
   
-- solidity_defi (know)
+  - analyzing_tool
+  
+    - tenderly (moniter , simulate, debug  contract)
+    - echidna (find bug)
+    
+- solidity_application
+
+  - basic           常见app的合约
+  - erc20
+  - ecr721
+  - erc777
+  - erc1155
+  - openzappelin
+    
+- solidity_defi
+  - basic           常见difi 合约
   - Uniswap
   - KeyberSwap
   - SushiSwap
   - Maker       https://makerdao.com/zh-CN/  
   - Compound    https://compound.finance/
-- solidity_dapp
-  - eip 
-  - erc721/1155/777
+
+- solidity_hack
+    - basic          常见solidity漏洞
   
-- solidity_hack (know)
-  - re_entrancy   
+- solidity_layer2 
   
 ### rust_smart_contract
 - ink

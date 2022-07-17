@@ -1,18 +1,18 @@
-学习资料
+# 学习资料
 
-    官网：
-    https://solidity-cn.readthedocs.io/zh/develop/
+solidty 官网: https://soliditylang.org/
+   
+中文文档:https://solidity-cn.readthedocs.io/zh/develop/
     
-    // 
-    https://www.cnblogs.com/zccst/p/14406916.html
+     
+https://www.cnblogs.com/zccst/p/14406916.html
  
-    o.8文档
-    https://www.osgeo.cn/solidity/
+o.8文档：https://www.osgeo.cn/solidity/
     
-    博客（内容质量不错）
-    https://me.tryblockchain.org/
+博客（内容质量不错）:https://me.tryblockchain.org/
+
+
     
-solidity虽然跟js很像，但实际还是有很多不一样的地方，如果不专门学习solidity语法，只能朦朦胧胧，似懂非懂。
 
 官方的资料：https://solidity-cn.readthedocs.io/zh/develop/index.html 但看完没多大用
 
@@ -40,3 +40,10 @@ https://solidity-by-example.org/sending-ether/
 //  智能合约设计中的安全设计模式
 
 https://willzhuang.github.io/2019/06/10/%E5%85%B3%E4%BA%8E%E4%BB%A5%E5%A4%AA%E5%9D%8A%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E7%9A%84%E6%96%B0%E8%AE%A4%E7%9F%A5/
+
+
+
+https://www.tutorialspoint.com/solidity/solidity_withdrawal_pattern.htm
+
+视频资料：
+https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA
