@@ -141,7 +141,7 @@ npx hardhat compile
 
 创建 `test` 目录，创建 Token.js
 ```js
-const { ethers } = require("hardhat");
+const { ethers } = require("hardhat_workflow");
 const {expect} = require("chai");
 
 describe("Token contract", function() {
@@ -166,7 +166,7 @@ npx hardhat test
 
 使用 fixtures 复用常用设置
 ```js
-const { loadFixture } = require("@nomicfoundation/hardhat-network-helpers");
+const { loadFixture } = require("@nomicfoundation/hardhat_workflow-network-helpers");
 const { expect } = require("chai");
 
 describe("Token contract", function () {
@@ -221,7 +221,7 @@ const { expect } = require("chai");
 // We use `loadFixture` to share common setups (or fixtures) between tests.
 // Using this simplifies your tests and makes them run faster, by taking
 // advantage of Hardhat Network's snapshot functionality.
-const { loadFixture } = require("@nomicfoundation/hardhat-network-helpers");
+const { loadFixture } = require("@nomicfoundation/hardhat_workflow-network-helpers");
 
 // `describe` is a Mocha function that allows you to organize your tests.
 // Having your tests organized makes debugging them easier. All Mocha
@@ -394,7 +394,7 @@ npx harhat run scripts/deploy.js --network <network-name>
 
 需要配置 hardhat.config.js
 ```js
-require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat_workflow-toolbox");
 
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard, and replace "KEY" with its key
