@@ -5,12 +5,24 @@ rust,solidity, js, blockchains
 note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合约`
 
 ## contents
-- 01 rust_note (**精通方向**)
-- 02 go_note
-- 03 js_note
-- 04 solidity_smart_contract （**目前主要方向**）
-- 05 rust_smart_contract  
-- 06 .... 
+
+- rust_note (**精通方向**)
+- solidity_smart_contract （**目前主要方向**）
+- rust_smart_contract
+
+## what am i doing
+
+成长就是在解决不同的问题。
+
+-  2022-5 ~ 2020-8 隐私链
+```text
+secret_network 研究。看git提交
+
+
+目前主要结果更新在下面仓库
+
+https://github.com/HermitMatrixNetwork/
+```
 
 ### solidity_smart_contract 
 - solidity_basic
@@ -85,17 +97,10 @@ note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合�
   
   - chainmaker
 
+### gitbook
+gitbook教程: https://www.mapull.com/gitbook/comscore/
 
-## what am i doing
-
-成长就是在解决不同的问题。
-
--  2022-5 ~ 2020-8 隐私链
-```text
-secret_network 研究。看git提交
-
-
-目前主要结果更新在下面仓库
-
-https://github.com/HermitMatrixNetwork/
+```bash
+npm install gitbook-plugin-expandable-chapters-small
 ```
+搭建个人网站：https://juejin.cn/post/6985731783279476743
