@@ -31,7 +31,8 @@
   - [15包和模块](./01 rust_note/01 rust基础知识点/15包和模块.md)
   - [16注释和文档](./01 rust_note/01 rust基础知识点/16注释和文档.md)
 
-- [part 2 rust工具链使用](./01%20rust_note/03%20rust工具链使用/README.md)  
+- [part 2 rust工具链使用](./01%20rust_note/rust工具链使用/README.md)
+  - [cargo工作流](./01%20rust_note/rust工具链使用/README.md)
 
 ### solidity智能合约
 
