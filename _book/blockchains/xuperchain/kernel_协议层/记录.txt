@@ -1,7 +1,0 @@
-xchain
-    starup.go  ---> engine  ---> xupercore/kernel/factor  ---> xuperos ---> bcs
-
-xchain
-    mymaster
-xchaincore
-    Supermaster
