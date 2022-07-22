@@ -1,7 +1,3 @@
-# we3
-
---- 
-
 - [前言](快速60分学习.md)
 - [web3目录](README.md)
 
@@ -57,6 +53,7 @@
   - [rust测试工具库](./01 rust_note/rust工具链使用/rust测试工具库/info.md)
 
 - [part 6 rust开发实践](./01 rust_note/rust开发实战/README.md)
+  - [web - url](./01 rust_note/rust开发实战/url.md)
    
 
 ### solidity智能合约
@@ -95,5 +92,13 @@
 - [solidity_defi](./solidity_smart_contract/solidity_defi/README.md)
 
 ### rust智能合约
+
+---
+
+- [cosmwasm](./rust_smart_contract/README.md)
+- [ink](./rust_smart_contract/README.md)
+- [solana](./rust_smart_contract/README.md)
+- [near](./rust_smart_contract/README.md)
+- [gear](./rust_smart_contract/README.md)
 
 ### blockchains 区块链

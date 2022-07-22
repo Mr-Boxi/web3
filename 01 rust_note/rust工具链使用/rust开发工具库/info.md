@@ -1,5 +1,9 @@
 # rust开发工具库
 
+http://rusty.rs/about.html
+
+工具库笔记放在开发实战中
+
 收集一些常用的工具库
 
 - web/http
