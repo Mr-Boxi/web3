@@ -44,7 +44,11 @@
   - [宏](./01%20rust_note/rust进阶知识点/2.5%20全局变量.md)
   - [容易混淆的概念](./01%20rust_note/rust进阶知识点/2.11%20易混淆的概念.md)
 
-- [part 3 rust工具链使用](./01%20rust_note/rust工具链使用/README.md)
+- [part 3 rust多线程编程](./01%20rust_note/rust进阶知识点/2.7%20多线程并发编程.md)
+
+- [part 4 rust异步编程](./01%20rust_note/rust进阶知识点/2.8%20rust异步编程.md)
+
+- [part 5 rust工具链使用](./01%20rust_note/rust工具链使用/README.md)
   - [cargo工作流](./01%20rust_note/rust工具链使用/cargo/cargo_worflow.md)
     -[cargo.tome配置格式](./01%20rust_note/rust工具链使用/cargo/cargo配置格式.md)
     -[cargo条件编译](./01%20rust_note/rust工具链使用/cargo/cargo_条件编译.md)
@@ -53,9 +57,8 @@
   - [rust开发工具库](./01%20rust_note/rust工具链使用/rust开发工具库/info.md)
   - [rust测试工具库](./01%20rust_note/rust工具链使用/rust测试工具库/info.md)
 
-- [part 4 多线程编程](./01%20rust_note/rust进阶知识点/2.7%20多线程并发编程.md)
-
-- [part 5异步编程](./01%20rust_note/rust进阶知识点/2.8%20rust异步编程.md)   
+- [part 6 rust开发实践](./01%20rust_note/rust开发实战/README.md)
+   
 
 ### solidity智能合约
 
