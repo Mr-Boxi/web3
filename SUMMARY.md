@@ -33,10 +33,29 @@
   - [15包和模块](./01 rust_note/01 rust基础知识点/15包和模块.md)
   - [16注释和文档](./01 rust_note/01 rust基础知识点/16注释和文档.md)
 
-- [part 2 rust工具链使用](./01%20rust_note/rust工具链使用/README.md)
-  - [cargo工作流](./01%20rust_note/rust工具链使用/cargo/info.md)
+- [part 2 rust进阶知识](./01%20rust_note/rust进阶知识点/README.md)
+  - [生命周期](./01%20rust_note/rust进阶知识点/2.1%20生命周期.md)
+  - [函数式编程](./01%20rust_note/rust进阶知识点/2.2%20函数式编程.md)
+  - [深入类型系统](./01%20rust_note/rust进阶知识点/2.3%20深入类型系统.md)
+  - [智能指针](./01%20rust_note/rust进阶知识点/2.4%20智能指针.md)
+  - [全局变量](./01%20rust_note/rust进阶知识点/2.5%20全局变量.md)
+  - [错误处理](./01%20rust_note/rust进阶知识点/2.6%20错误处理.md)
+  - [unsafe编程](./01%20rust_note/rust进阶知识点/2.9%20unsafe编程.md)
+  - [宏](./01%20rust_note/rust进阶知识点/2.5%20全局变量.md)
+  - [容易混淆的概念](./01%20rust_note/rust进阶知识点/2.11%20易混淆的概念.md)
+
+- [part 3 rust工具链使用](./01%20rust_note/rust工具链使用/README.md)
+  - [cargo工作流](./01%20rust_note/rust工具链使用/cargo/cargo_worflow.md)
+    -[cargo.tome配置格式](./01%20rust_note/rust工具链使用/cargo/cargo配置格式.md)
+    -[cargo条件编译](./01%20rust_note/rust工具链使用/cargo/cargo_条件编译.md)
+    -[cargo工作空间](./01%20rust_note/rust工具链使用/cargo/cargo_workspace.md)
+    -[cargo目标对象](./01%20rust_note/rust工具链使用/cargo/cargo_targe.md)
   - [rust开发工具库](./01%20rust_note/rust工具链使用/rust开发工具库/info.md)
   - [rust测试工具库](./01%20rust_note/rust工具链使用/rust测试工具库/info.md)
+
+- [part 4 多线程编程](./01%20rust_note/rust进阶知识点/2.7%20多线程并发编程.md)
+
+- [part 5异步编程](./01%20rust_note/rust进阶知识点/2.8%20rust异步编程.md)   
 
 ### solidity智能合约
 
