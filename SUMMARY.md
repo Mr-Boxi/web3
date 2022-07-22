@@ -2,7 +2,9 @@
 
 --- 
 
-- [web3 by boxi](README.md)
+- [前言](快速60分学习.md)
+- [web3目录](README.md)
+
 
 ### rust
 
@@ -32,7 +34,9 @@
   - [16注释和文档](./01 rust_note/01 rust基础知识点/16注释和文档.md)
 
 - [part 2 rust工具链使用](./01%20rust_note/rust工具链使用/README.md)
-  - [cargo工作流](./01%20rust_note/rust工具链使用/README.md)
+  - [cargo工作流](./01%20rust_note/rust工具链使用/cargo/info.md)
+  - [rust开发工具库](./01%20rust_note/rust工具链使用/rust开发工具库/info.md)
+  - [rust测试工具库](./01%20rust_note/rust工具链使用/rust测试工具库/info.md)
 
 ### solidity智能合约
 

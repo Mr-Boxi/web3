@@ -13,12 +13,11 @@ note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合�
 - rust_smart_contract
 
 
-
 ## what am i doing
 
 成长就是在解决不同的问题。
 
--  2022-5 ~ 2020-8 隐私链
+-  2022-5 ~ 2020-8 sercret_network
 
 ```text
 secret_network 研究。看git提交
