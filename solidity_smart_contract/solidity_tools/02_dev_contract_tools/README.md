@@ -4,4 +4,6 @@
 
 - openzeppelin
 
+- openzeppelin-upgradeable
+
 - defi

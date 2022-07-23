@@ -7,27 +7,27 @@
 --- 
 
 - [rust_note概述](./01 rust_note/README.md)
-- [part 1 rust基础知识点](./01 rust_note/01 rust基础知识点/README.md)
-  - [01变量绑定与结构](./01 rust_note/01 rust基础知识点/01变量绑定与解构.md)
-  - [02原生类型](./01 rust_note/01 rust基础知识点/02原生类型.md)
-  - [03.1字符串与切片](./01 rust_note/01 rust基础知识点/03.1字符串与切片.md)
-  - [03.2元组](./01 rust_note/01 rust基础知识点/03.2元组.md)
-  - [03.3结构体](./01 rust_note/01 rust基础知识点/03.3结构体.md)
-  - [03.4枚举](./01 rust_note/01 rust基础知识点/03.4枚举.md)
-  - [03.5数组](./01 rust_note/01 rust基础知识点/03.5数组.md)
-  - [04类型转换](./01 rust_note/01 rust基础知识点/04类型转换.md)
-  - [05所有权](./01 rust_note/01 rust基础知识点/05所有权.md)
-  - [06引用与借用](./01 rust_note/01 rust基础知识点/06引用与借用.md)
-  - [07生命周期](./01 rust_note/01 rust基础知识点/07生命周期.md)
-  - [08流程控制](./01 rust_note/01 rust基础知识点/08流程控制.md)
-  - [09模式匹配](./01 rust_note/01 rust基础知识点/09模式匹配.md)
-  - [10方法](./01 rust_note/01 rust基础知识点/10方法.md)
-  - [11泛型](./01 rust_note/01 rust基础知识点/11泛型.md)
-  - [12特征](./01 rust_note/01 rust基础知识点/12特征.md)
-  - [13集合类型](./01 rust_note/01 rust基础知识点/13集合类型.md)
-  - [14错误处理](./01 rust_note/01 rust基础知识点/14错误处理.md)
-  - [15包和模块](./01 rust_note/01 rust基础知识点/15包和模块.md)
-  - [16注释和文档](./01 rust_note/01 rust基础知识点/16注释和文档.md)
+- [part 1 rust基础知识点](01 rust_note/rust基础知识点/README.md)
+  - [01变量绑定与结构](01 rust_note/rust基础知识点/01变量绑定与解构.md)
+  - [02原生类型](01 rust_note/rust基础知识点/02原生类型.md)
+  - [03.1字符串与切片](01 rust_note/rust基础知识点/03.1字符串与切片.md)
+  - [03.2元组](01 rust_note/rust基础知识点/03.2元组.md)
+  - [03.3结构体](01 rust_note/rust基础知识点/03.3结构体.md)
+  - [03.4枚举](01 rust_note/rust基础知识点/03.4枚举.md)
+  - [03.5数组](01 rust_note/rust基础知识点/03.5数组.md)
+  - [04类型转换](01 rust_note/rust基础知识点/04类型转换.md)
+  - [05所有权](01 rust_note/rust基础知识点/05所有权.md)
+  - [06引用与借用](01 rust_note/rust基础知识点/06引用与借用.md)
+  - [07生命周期](01 rust_note/rust基础知识点/07生命周期.md)
+  - [08流程控制](01 rust_note/rust基础知识点/08流程控制.md)
+  - [09模式匹配](01 rust_note/rust基础知识点/09模式匹配.md)
+  - [10方法](01 rust_note/rust基础知识点/10方法.md)
+  - [11泛型](01 rust_note/rust基础知识点/11泛型.md)
+  - [12特征](01 rust_note/rust基础知识点/12特征.md)
+  - [13集合类型](01 rust_note/rust基础知识点/13集合类型.md)
+  - [14错误处理](01 rust_note/rust基础知识点/14错误处理.md)
+  - [15包和模块](01 rust_note/rust基础知识点/15包和模块.md)
+  - [16注释和文档](01 rust_note/rust基础知识点/16注释和文档.md)
 
 - [part 2 rust进阶知识](./01 rust_note/rust进阶知识点/README.md)
   - [生命周期](./01 rust_note/rust进阶知识点/2.1生命周期.md)
@@ -53,7 +53,7 @@
   - [rust测试工具库](./01 rust_note/rust工具链使用/rust测试工具库/info.md)
 
 - [part 6 rust开发实践](./01 rust_note/rust开发实战/README.md)
-  - [web - url](./01 rust_note/rust开发实战/url.md)
+  - [web-url](./01 rust_note/rust开发实战/url.md)
    
 
 ### solidity智能合约
@@ -84,7 +84,11 @@
     - [openzeppelin_治理合约](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/03_governance.md)
     - [openzeppelin_跨链合约](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/04_crosschain.md)
     - [openzeppelin_工具合约](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/05_uitilities.md)
-
+    
+    - [openzeppelin_upgradeable](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzeppelin-upgradeable/README.md)
+    - [openzeppelin_upgradeable](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzeppelin-upgradeable/可升级合约.md)
+    - [openzeppelin_upgradeable](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzeppelin-upgradeable/erc20-upgradeable-example.md)
+  
   - [合约测试工具](solidity_smart_contract/solidity_tools/03_dev_test_tools/README.md)
   
 - [solidity_dapp](./solidity_smart_contract/solidity_dapp/README.md)
