@@ -7,9 +7,6 @@ pragma solidity ^0.8.13;
         可重入漏洞就是允许B 在A未执行完成之前回调A。
 */
 
-/*
-*/
-
 contract EtherStore{
     mapping(address => uint) public balances;
 

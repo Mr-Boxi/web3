@@ -53,7 +53,8 @@
   - [rust测试工具库](./01 rust_note/rust工具链使用/rust测试工具库/info.md)
 
 - [part 6 rust开发实践](./01 rust_note/rust开发实战/README.md)
-  - [web-url](./01 rust_note/rust开发实战/url.md)
+  - [web-url](01 rust_note/rust开发实战/web_url.md)
+  - [web-媒介类型](01 rust_note/rust开发实战/web_media_type.md)
    
 
 ### solidity智能合约
@@ -94,7 +95,21 @@
 - [solidity_defi](./solidity_smart_contract/solidity_defi/README.md)
 
 - [solidity_hack](./solidity_smart_contract/solidity_hack/README.md)
-
+  - [重入漏洞](./solidity_smart_contract/solidity_hack/re_entrancy.md)
+  - [算术溢出](./solidity_smart_contract/solidity_hack/arithmetic_overflow_underflow.md)
+  - [合约销毁](./solidity_smart_contract/solidity_hack/self_destruct.md)
+  - [访问隐私数据](./solidity_smart_contract/solidity_hack/access_private_data.md)
+  - [委托调用](./solidity_smart_contract/solidity_hack/delegatecall.md)
+  - [随机源](./solidity_smart_contract/solidity_hack/source_of_randomness.md)
+  - [拒绝服务](./solidity_smart_contract/solidity_hack/denial_of_service.md)
+  - [tx.origin钓鱼](./solidity_smart_contract/solidity_hack/phishing_with_tx_orgin.md)
+  - [隐藏恶意代码](./solidity_smart_contract/solidity_hack/hiding_malicious_code_with_external_contract.md)
+  - [蜜罐防护](./solidity_smart_contract/solidity_hack/honeypot.md)
+  - [tx提前打包](./solidity_smart_contract/solidity_hack/front_running.md)
+  - [操纵区块时间](./solidity_smart_contract/solidity_hack/README.md)
+  - [替换签名](./solidity_smart_contract/solidity_hack/README.md)
+  - [绕过合约大小检查](./solidity_smart_contract/solidity_hack/README.md)
+  
 ### rust智能合约
 
 ---
