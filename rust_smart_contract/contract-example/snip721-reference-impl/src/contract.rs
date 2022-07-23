@@ -1295,7 +1295,7 @@ pub fn transfer_nft<S: Storage, A: Api, Q: Querier>(
 
 /// Returns HandleResult
 ///
-/// sends tokens to contracts, and calls those contracts' ReceiveNft.  Will error if any
+/// sends tokens to contract-example, and calls those contract-example' ReceiveNft.  Will error if any
 /// contract has not registered its ReceiveNft
 ///
 /// # Arguments
@@ -4118,7 +4118,7 @@ pub struct CacheReceiverInfo {
 /// * `send_from_list` - list of SendFroms containing all the owners and their tokens being sent
 /// * `msg` - a reference to the optional msg used to control ReceiveNft logic
 /// * `sender` - a reference to the address that is sending the tokens
-/// * `receivers` - a mutable reference the list of receiver contracts and their registration
+/// * `receivers` - a mutable reference the list of receiver contract-example and their registration
 ///                 info
 #[allow(clippy::too_many_arguments)]
 fn receiver_callback_msgs<S: ReadonlyStorage>(

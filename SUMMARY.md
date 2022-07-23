@@ -40,8 +40,8 @@
   - [宏](./01 rust_note/rust进阶知识点/2.5全局变量.md)
   - [容易混淆的概念](./01 rust_note/rust进阶知识点/2.11易混淆的概念.md)
 
-- [part 3 rust多线程编程](./01 rust_note/rust进阶知识点/2.7多线程并发编程.md)
-- [part 4 rust异步编程](./01 rust_note/rust进阶知识点/2.8rust异步编程.md)
+- [part 3 rust多线程编程todo](./01 rust_note/rust进阶知识点/2.7多线程并发编程.md)
+- [part 4 rust异步编程todo](./01 rust_note/rust进阶知识点/2.8rust异步编程.md)
 
 - [part 5 rust工具链使用](./01 rust_note/rust工具链使用/README.md)
   - [cargo工作流](./01 rust_note/rust工具链使用/cargo/cargo_worflow.md)
@@ -73,7 +73,6 @@
     - [6 升级合约](solidity_smart_contract/solidity_tools/01_projest_manage/hardhat_workflow/06_upgrading_contract.md)
     - [7 部署主网](solidity_smart_contract/solidity_tools/01_projest_manage/hardhat_workflow/07_prepare_for_mainnet.md)
     - [工作流例子](solidity_smart_contract/solidity_tools/01_projest_manage/hardhat_workflow/hardhat_workflow_example.md)
-
   - [合约开发库](solidity_smart_contract/solidity_tools/02_dev_contract_tools/README.md)
     - [openzeppelin](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/README.md)
     - [openzeppelin_访问控制合约](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/01_access_control.md)
@@ -83,26 +82,37 @@
     - [openzeppelin_erc1155](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/02.4_erc1155.md)
     - [openzeppelin_治理合约](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/03_governance.md)
     - [openzeppelin_跨链合约](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/04_crosschain.md)
-    - [openzeppelin_工具合约](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/05_uitilities.md)
-    
+    - [openzeppelin_工具合约](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzepplin/05_uitilities.md)   
     - [openzeppelin_upgradeable](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzeppelin-upgradeable/README.md)
     - [openzeppelin_upgradeable](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzeppelin-upgradeable/可升级合约.md)
     - [openzeppelin_upgradeable](solidity_smart_contract/solidity_tools/02_dev_contract_tools/openzeppelin-upgradeable/erc20-upgradeable-example.md)
-  
   - [合约测试工具](solidity_smart_contract/solidity_tools/03_dev_test_tools/README.md)
+  - [合约debug工具](solidity_smart_contract/solidity_tools/04_debug_tools.md/README.md)
   
 - [solidity_dapp](./solidity_smart_contract/solidity_dapp/README.md)
 
 - [solidity_defi](./solidity_smart_contract/solidity_defi/README.md)
 
+- [solidity_hack](./solidity_smart_contract/solidity_hack/README.md)
+
 ### rust智能合约
 
 ---
 
-- [cosmwasm](./rust_smart_contract/README.md)
-- [ink](./rust_smart_contract/README.md)
-- [solana](./rust_smart_contract/README.md)
-- [near](./rust_smart_contract/README.md)
-- [gear](./rust_smart_contract/README.md)
+- [rust智能合约概述](./rust_smart_contract/README.md)
+- [solana todo](./rust_smart_contract/solana/README.md)
+- [cosmos系列](./rust_smart_contract/cosmos/README.md)
+  - [环境安装](./rust_smart_contract/cosmos/环境安装.md)
+  - [快速开始](./rust_smart_contract/cosmos/快速开始.md)
+  - [开发合约](./rust_smart_contract/cosmos/开发合约.md)
+  - [合约剖析](./rust_smart_contract/cosmos/合约剖析.md)
+
+- [ink](./rust_smart_contract/polkadot-ink/README.md)
+  - [快速开始](./rust_smart_contract/polkadot-ink/快速开始.md)
+  - [基础讲解](./rust_smart_contract/polkadot-ink/基础讲解.md)
+  - [宏和属性](./rust_smart_contract/polkadot-ink/宏和属性.md)
+  - [存储和数据结构](./rust_smart_contract/polkadot-ink/存储和数据结构.md)
+
+- [near todo](./rust_smart_contract/near/README.md)
 
 ### blockchains 区块链

@@ -1,3 +1,16 @@
 {
-  "plugins": ["expandable-chapters-small"]
+  "plugins": [
+    "expandable-chapters-small",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "showGoTop": true,
+      "isShowTocTitleIcon": true,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    }
+  }
 }

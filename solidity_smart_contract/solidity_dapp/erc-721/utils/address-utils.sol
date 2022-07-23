@@ -22,7 +22,7 @@ library AddressUtils
     view
     returns (bool addressCheck)
     {
-        // This method relies in extcodesize, which returns 0 for contracts in
+        // This method relies in extcodesize, which returns 0 for contract-example in
         // construction, since the code is only stored at the end of the
         // constructor execution.
 

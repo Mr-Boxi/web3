@@ -3,7 +3,7 @@
 ## 所有权 和 `ownable`
 `Ownabel` 提供了所有权合约，使用示例:
 ```solidity
-// contracts/MyContract.sol
+// contract-example/MyContract.sol
 // paragm solidity ^0.8.0;
 import "@openzeppelin/contracts/access/OWnable.sol"
 

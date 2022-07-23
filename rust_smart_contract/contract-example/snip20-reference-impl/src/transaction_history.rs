@@ -27,7 +27,7 @@ pub struct Tx {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub memo: Option<String>,
     // The block time and block height are optional so that the JSON schema
-    // reflects that some SNIP-20 contracts may not include this info.
+    // reflects that some SNIP-20 contract-example may not include this info.
     pub block_time: Option<u64>,
     pub block_height: Option<u64>,
 }

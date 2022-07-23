@@ -306,7 +306,7 @@ pub enum HandleMsg {
         /// optional message length padding
         padding: Option<String>,
     },
-    /// send many tokens and call the receiving contracts' (Batch)ReceiveNft.  Fails if any tokens are
+    /// send many tokens and call the receiving contract-example' (Batch)ReceiveNft.  Fails if any tokens are
     /// non-transferable
     BatchSendNft {
         /// list of sends to perform

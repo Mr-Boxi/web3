@@ -47,7 +47,7 @@ pub struct CountResponse {
     pub count: i32,
 }
 
-// Messages sent to SNIP-20 contracts
+// Messages sent to SNIP-20 contract-example
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
 #[serde(rename_all = "snake_case")]
 pub enum Snip20Msg {

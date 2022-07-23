@@ -67,7 +67,7 @@ touch Token.sol
 pragma solidity ^0.8.9;
 
 
-// This is the main building block for smart contracts.
+// This is the main building block for smart contract-example.
 contract Token {
     // Some string type variables to identify the token.
     string public name = "My Hardhat Token";

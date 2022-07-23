@@ -8,7 +8,7 @@ note: 目前主要以solidity更新为主， 后期更新 `rust编写智能合�
 
 ## contents
 
-- rust_note (**精通方向**)
+- rust (**精通方向**)
 - solidity_smart_contract （**目前主要方向**）
 - rust_smart_contract
 

@@ -60,13 +60,13 @@ pragma solidity ^0.8.13;
  }
 
  contract Child is Base {
-    // Inherited contracts do not have access to private functions
+    // Inherited contract-example do not have access to private functions
     // and state variables.
     // function testPrivateFunc() public pure returns (string memory) {
     //     return privateFunc();
     // }
 
-    // Internal function call be called inside child contracts.
+    // Internal function call be called inside child contract-example.
     function testInternalFunc() public pure override returns (string memory) {
         return internalFunc();
     }
