@@ -6,4 +6,6 @@
 
 - openzeppelin-upgradeable
 
+- application
+
 - defi

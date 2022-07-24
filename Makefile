@@ -1,9 +1,11 @@
 publish:_publish
 _publish: build_docker_image run
 
-build_book:
+install_plugin:
 	npm install gitbook-plugin-expandable-chapters-small
 	npm install gitbook-plugin-anchor-navigation-ex
+	npm install gitbook-plugin-splitter
+build_book: install_plugin
 	gitbook build
 build_docker_image: build_book
 	sudo docker build -t web3-boxi:v1.0 .

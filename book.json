@@ -1,7 +1,8 @@
 {
   "plugins": [
     "expandable-chapters-small",
-    "anchor-navigation-ex"
+    "anchor-navigation-ex",
+    "splitter"
   ],
   "pluginsConfig": {
     "anchor-navigation-ex": {
