@@ -1,6 +1,3 @@
-publish:_publish
-_publish: build_docker_image run
-
 install_plugin:
 	npm install gitbook-plugin-expandable-chapters-small
 	npm install gitbook-plugin-anchor-navigation-ex
@@ -16,8 +13,10 @@ stop:
 remove: stop
 	sudo docker rm web3-boxi
 	sudo docker rmi web3-boxi:v1.0
-rebuild: remove
+rebuild: remove install_plugin
 	git pull
 	gitbook build
 	sudo docker build -t web3-boxi:v1.0 .
+publish: build_docker_image run
+
 republish: rebuild run
