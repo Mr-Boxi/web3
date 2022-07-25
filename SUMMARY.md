@@ -58,6 +58,7 @@
   - [文本处理-regex](01 rust_note/rust开发工具库/text_regex.md)
   - [错误处理](01 rust_note/rust开发工具库/error_handle.md)
   - [日期时间](01 rust_note/rust开发工具库/datatime_duration.md)
+  - [序列化](01 rust_note/rust开发工具库/encoding_complex.md)
 - [part 7 rust开发实践](./01 rust_note/rust开发实战/README.md)
   - [axum](./01 rust_note/rust开发实战/README.md)
    
